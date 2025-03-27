@@ -15,3 +15,5 @@
 🔹 AI/ML: Scrapy (Web Crawling), CatBoost (ML Model), OpenAI API
 [ashiyana.pptx](https://github.com/user-attachments/files/19479954/ashiyana.pptx)
 
+drive link for the video:
+https://drive.google.com/drive/folders/1DSEoE4h4Jgpo5QwXoHdbZJz_IeyJuVHT?usp=drive_link
