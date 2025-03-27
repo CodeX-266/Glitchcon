@@ -1,0 +1,89 @@
+/* Apply full-screen background */
+.app {
+    background: url("../assets/flats-bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+  
+  .nav-links a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  /* Hero Section */
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding-top: 100px;
+  }
+  
+  /* Semi-transparent background for text */
+  .hero-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+  }
+  
+  /* Improve search bar */
+  .search-container {
+    display: flex;
+    margin-top: 15px;
+  }
+  
+  .search-input {
+    padding: 12px;
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+  }
+  
+  .search-button {
+    padding: 12px 18px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  /* Chatbox Styling */
+  .chatbox {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  

@@ -1,0 +1,116 @@
+.chatboxContainer {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: all 0.3s ease-in-out;
+}
+  
+/* Collapsed State */
+.collapsed {
+    width: 50px;
+    height: 50px;
+    background: #2f91e6; /* Changed from #f4a261 */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 24px;
+    color: white;
+}
+  
+/* Expanded State */
+.expanded {
+    width: 320px;
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+}
+  
+/* Chatbox Content */
+.chatboxContent {
+    display: flex;
+    flex-direction: column;
+}
+  
+/* Header */
+.chatboxHeader {
+    background: #2f91e6; /* Changed from #f4a261 */
+    color: white;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+  
+/* Close Button */
+.closeButton {
+    cursor: pointer;
+    font-size: 16px;
+}
+  
+/* Messages */
+.chatboxMessages {
+    max-height: 250px;
+    overflow-y: auto;
+    padding: 10px;
+    color: white;
+}
+  
+/* Input and Send Button */
+.chatboxInputContainer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #2f91e6; /* Changed from #f4a261 */
+}
+  
+.chatboxInput {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 1rem;
+}
+  
+.chatboxSendButton {
+    background: #2f91e6; /* Changed from #f4a261 */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+  
+.chatboxSendButton:hover {
+    background: white;
+    color: #d49a6a; /* Changed from #f4a261 */
+}
+
+.userMessage {
+    background: #f4a261;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    align-self: flex-end;
+    margin: 5px 0;
+    max-width: 70%;
+  }
+  
+  .botMessage {
+    background: #333;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    align-self: flex-start;
+    margin: 5px 0;
+    max-width: 70%;
+  }
+  
